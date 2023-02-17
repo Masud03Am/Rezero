@@ -388,7 +388,7 @@ body {
 }
 
 .text-sponsor h2{
-  font-size: 35px; 
+  font-size: 32px; 
   font-weight: 800; 
   text-transform: uppercase; 
   color: #FFFF;
@@ -427,7 +427,7 @@ body {
 }
 
 .text-managesport h2{
-  font-size: 35px; 
+  font-size: 32px; 
   font-weight: 800; 
   text-transform: uppercase; 
   color: #000000fa;
@@ -523,7 +523,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 8vh;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 800;
   text-transform: uppercase;
   color: #444444;
