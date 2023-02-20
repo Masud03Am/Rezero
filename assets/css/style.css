@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 body {
     font-family: "Montserrat", sans-serif;
     color: #444444;
@@ -369,6 +372,7 @@ body {
 # sponsor-section
 --------------------------------------------------------------*/
 
+
   .sponsor {
     position: relative;
     background-color: #000000fa;
@@ -451,52 +455,6 @@ body {
 # Brending-section
 --------------------------------------------------------------*/
 
-/*.brending {
-  position: relative;
-  background-color: #000000fa;
-  width: 100%;
-  background: url(../img/main4.jpg) no-repeat center bottom;
-}*/
-
-/*.brending .brending-text {
-  position: relative;
-  padding-top: 18vh;
-}*/
-
-/*.brending-text h1{
-  font-size: 65px;
-  font-weight: 800;
-  color: #000000fa;
-  display: flex;
-  justify-content: center;
-}*/
-
-/*.column-brend { 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.column-brend h1{
-  font-size: 16px;
-  line-height: 22px;
-  padding-bottom: 25px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.column-brend h3{
-  font-size: 16px;
-  line-height: 4vh;
-  padding-bottom: 25px;
-  color: #fff;
-}
-
-.column-brend ul>li{
-  font-size: 16px;
-  color: #FFFF;
-  line-height: 4vh;
-}*/
 
 
 .brending {
@@ -504,26 +462,26 @@ body {
   background-color: #000000fa;
 }
 #brending-section .btn-get-started {
-font-family: "Montserrat", sans-serif;
-text-transform: uppercase;
-font-weight: 500;
-font-size: 13px;
-letter-spacing: 1px;
-display: inline-block;
-padding: 8px 30px 9px 30px;
-border-radius: 50px;
-transition: 0.5s;
-border: 2px solid #fff;
-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 9px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 #brending-section .btn-get-started:hover {
-background: #e43c5c;
-border: 2px solid #e43c5c;
+  background: #e43c5c;
+  border: 2px solid #e43c5c;
 }
 
 .text-brending h2{
-font-size: 32px; 
+font-size: 27px; 
 font-weight: 800; 
 text-transform: uppercase; 
 color: #FFFF;
@@ -536,28 +494,13 @@ font-weight: 500;
 font-size: 18px;
 }
 
-
-#brending-section .btn-get-started {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 1px;
-  display: flex;
-  justify-content: center;
-  padding: 8px 30px 9px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  border: 2px solid #FFFF;
+.text-brending ul>li{
   color: #FFFF;
-  margin: auto;
+  font-weight: 500;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 15px;
 }
 
-#brending-section .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
-  color: #FFFF;
-}
 
     /*--------------------------------------------------------------
 # Portfolio-section
@@ -589,7 +532,7 @@ font-size: 18px;
 
 .text-lower{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000000fa;
   margin: 30px 10px;
@@ -629,80 +572,33 @@ font-size: 18px;
   .member:hover img {
     transform: scale(1.3) rotate(5deg);
   }
-  /*
-  .team .member .member-info {
-    opacity: 0;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: 0.2s;
+
+  .card-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #000000fa;
+    font-family: 'Montserrat' sans-serif;
   }
-  
-  .team .member .member-info-content {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    transition: bottom 0.4s;
+  .card-text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000fa;
+    font-family: 'Montserrat' sans-serif;
   }
-  
-  .team .member .member-info-content h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-    color: #fff;
+
+  .border {
+    border: 20px solid #000000fa !important;
   }
-  
-  .team .member .member-info-content span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-    color: #fff;
-  }
-  
-  .team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: -38px;
-    right: 0;
-    height: 48px;
-    transition: bottom ease-in-out 0.4s;
-    text-align: center;
-  }
-  
-  .team .member .social a {
-    transition: color 0.3s;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-  }
-  
-  .team .member .social a:hover {
-    color: #4eb478;
-  }
-  
-  .team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-  }
-  
-  .team .member:hover .member-info {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, #e43c5c 20%, rgba(0, 212, 255, 0) 100%);
-    opacity: 1;
-    transition: 0.4s;
-  }
-  
-  .team .member:hover .member-info-content {
-    bottom: 60px;
-    transition: bottom 0.4s;
-  }
-  
-  .team .member:hover .social {
-    bottom: 0;
-    transition: bottom ease-in-out 0.4s;
-  }*/
+
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-dialog{
+  margin-top: 30vh;
+}
+
 
     /*--------------------------------------------------------------
 # Partner-section
