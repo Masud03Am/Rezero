@@ -18,12 +18,14 @@
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/libs/animate.css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
   <!--Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
 </head>
 <body>
     <!-- ======= Header ======= -->
@@ -141,41 +143,6 @@
   </div>
 </section>
 
-<!--<section class="brending wow fadeInUp" data-wow-offset="100" data-wow-duration="2s" id="brending-section">
-  <div class="container-fluid">
-      <div class="brending-text">
-        <h1>
-          Брендинг и SMM
-        </h1>
-        <div class="row d-flex justify-content-center">
-          <div class="column-brend col-lg-4 col-md-6 col-sm-12 py-md-5">
-            <h1>
-              Одним из важных современных показателей успешности является спортивный брендинг
-            </h1>
-            <h3>
-              Продуманный и реализованный спортивный дизайн позволит вашему персональному бренду выделиться на фоне конкурентов и стать еще более привлекательным для спонсоров и болельщиков
-            </h3>
-          </div>
-          <div class="column-brend col-lg-4 col-md-6 col-sm-12 py-md-5">
-            <a href="#portfolio-section" class="btn-get-started scrollto">СВЯЗАТЬСЯ</a>
-          </div>
-          <div class="column-brend col-lg-4 col-md-6 col-sm-12 py-md-5">
-            <h1>
-              Агентство REZERO предлагает своим клиентам полный цикл спортивного брендинга:
-            </h1>
-            <ul>
-              <li>Разработка логотипа и индивидуального фирменного стиля</li>
-              <li>Разработка брендбука</li>
-              <li>Разработка персонального веб-сайта</li>
-              <li>Дизайн для социальных сетей</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  </div>
-  </div>
-</section>-->
-
 
   <!-- ======= Portfolio Section ======= -->
 
@@ -201,6 +168,7 @@
     </div>
   </section>
 
+
 <!-- ======= Team Section ======= -->
 <section id="team-section" class="team">
     <div class="container">
@@ -209,13 +177,16 @@
         <h1 class="text-upper pb-3">Наши Спортсмены</h1>
       </div>
 
-      <div class="row pb-5">
+      <div class="row responsive">
 
-        <div class="col-xl-3 col-lg-4 col-md-6 py-md-4">
+        <div class="col-xl-3 col-lg-4 col-md-6 pt-4 py-md-3 p-2">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt=""> 
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-1.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt=""> 
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
+                <div class="col-lg-3 d-flex">
+                  <img class="card-img d-flex" src="assets/img/team/team-1.jpg" alt="">
+                </div>
                 <div class="modal-content">
                   <div class="card text-center border">
                     <div class="card-body">
@@ -233,26 +204,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 mt-4 py-md-3 mt-md-0">
+        <div class="col-xl-3 col-lg-4 col-md-6 mt-4 py-md-3 mt-md-0 p-2">
           <div class="member">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-2.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -271,26 +230,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0" data-wow-delay="0.2s">
+        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0 p-2" data-wow-delay="0.2s">
           <div class="member">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-3.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -309,26 +256,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0" data-wow-delay="0.3s">
+        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0 p-2" data-wow-delay="0.3s">
           <div class="member">
-            <img src="assets/img/team/team-4.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-4.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -347,26 +282,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 pt-4 py-md-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 pt-4 py-md-3 p-2">
           <div class="member">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-1.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -385,26 +308,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-md-0">
+        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-md-0 p-2">
           <div class="member">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-2.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -423,26 +334,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0" data-wow-delay="0.2s">
+        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0 p-2" data-wow-delay="0.2s">
           <div class="member">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-3.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -461,26 +360,14 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>-->
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0" data-wow-delay="0.3s">
+        <div class="col-xl-3 col-lg-4 col-md-6 py-md-3 mt-4 mt-lg-0 p-2" data-wow-delay="0.3s">
           <div class="member">
-            <img src="assets/img/team/team-4.jpg" class="img-fluid" data-toggle="modal" data-target="#modalCard" alt="">
-            <div class="modal fade" id="modalCard">
+            <img src="assets/img/team/team-4.jpg" class="img-fluid img-team" data-toggle="modal" data-target="#modalCard" alt="">
+            <!--<div class="modal fade" id="modalCard">
               <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                   <div class="card text-center border border-success text-success">
@@ -498,26 +385,55 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!--<div class="member-info">
-              <div class="member-info-content">
-                <h4>ФИО</h4>
-                <span>Специальность</span>
-              </div>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
             </div>-->
           </div>
         </div>
       </div>
-
     </div>
+    <!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div style="max-width: 100%;" class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex">
+       <div class="col-sm-4">
+         <img src="assets/img/team/team-1.jpg" class="modal-img" alt="modal img">
+      </div>
+      <div class="col-md-8 d-flex text-center">
+        <div class="col-sm-3">
+          <div class="infor">
+            <h3>FIO</h3>
+            <h4>FIO</h4>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="infor">
+            <h3>FIO</h3>
+            <h4>FIO</h4>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="infor">
+            <h3>FIO</h3>
+            <h4>FIO</h4>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="infor">
+            <h3>FIO</h3>
+            <h4>FIO</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
   </section><!-- End Team Section -->
+
 
   <!-- ======= Partner Section ======= -->
 
@@ -526,7 +442,7 @@
       <div class="section-title">
         <h1 class="text-upper py-md-5" style="color: black;">Наши Партнёры</h1>
       </div>
-      <div class="row">
+      <div class="row responsive">
 
         <div class="col-lg-2 col-md-4 col-6">
           <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
@@ -578,13 +494,15 @@
   </div>
 </footer><!-- End Footer -->
 <!-- Vendor JS Files -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/dist/wow.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+<!--<script src="assets/js/bootstrap.bundle.min.js"></script>-->
+<script src="assets/js/slick.js"></script>
 </body>
 </html>
