@@ -3,9 +3,9 @@ $('.responsive').slick({
       infinite: true,
       speed: 3000,
       slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 2000,
       responsive: [
         {
           breakpoint: 1024,
