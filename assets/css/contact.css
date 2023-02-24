@@ -159,6 +159,9 @@ body {
     }
     
     @media (max-width: 991px) {
+      .navbar-mobile{
+            height: 50%;
+      }
       .mobile-nav-toggle {
         display: block;
       }
