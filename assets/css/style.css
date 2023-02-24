@@ -10,12 +10,12 @@ body {
   }
   
   a {
-    color: #e43c5c;
+    color: #321017;
     text-decoration: none;
   }
   
   a:hover {
-    color: #ea6981;
+    color: #321017;
     text-decoration: none;
   }
   
@@ -78,7 +78,7 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e43c5c;
+  background: #321017;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -92,7 +92,7 @@ body {
 }
 
 .back-to-top:hover {
-  background: #e9607a;
+  background: #511824;
   color: #fff;
 }
 
@@ -157,7 +157,7 @@ body {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #e43c5c;
+    background-color: #321017;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -251,7 +251,7 @@ body {
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
-    color: #e43c5c;
+    color: #321017;
   }
   
   .navbar-mobile .getstarted,
@@ -322,7 +322,7 @@ body {
   #home .btn-get-started {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
@@ -334,8 +334,8 @@ body {
   }
   
   #home .btn-get-started:hover {
-    background: #e43c5c;
-    border: 2px solid #e43c5c;
+    background: #321017;
+    border: 2px solid #321017;
   }
   
   @media (min-width: 1024px) {
@@ -380,7 +380,7 @@ body {
 #sponsor-section .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
@@ -392,8 +392,8 @@ body {
 }
 
 #sponsor-section .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #321017;
+  border: 2px solid #321017;
 }
 
 .text-sponsor h2{
@@ -430,8 +430,8 @@ body {
 }
 
 #managesport-section .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #321017;
+  border: 2px solid #321017;
   color: #FFFF;
 }
 
@@ -464,7 +464,7 @@ body {
 #brending-section .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
@@ -476,8 +476,8 @@ body {
 }
 
 #brending-section .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #321017;
+  border: 2px solid #321017;
 }
 
 .text-brending h2{
@@ -576,7 +576,8 @@ img{
   
   .team .member {
     text-align: center;
-    background: #343a40;
+    background: rgb(61,57,56);
+    background: linear-gradient(0deg, rgba(61,57,56,1) 0%, rgba(95,12,22,1) 51%, rgba(18,4,5,1) 98%);
     position: relative;
     overflow: hidden;
     border-radius: 5px;
@@ -677,7 +678,7 @@ img{
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e43c5c;
+  background: #321017;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
