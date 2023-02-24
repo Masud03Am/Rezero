@@ -563,6 +563,10 @@ img{
 	width: 100%;
 }
 
+.slick-prev, .slick-next{
+  display: none !important;
+}
+
 .team {
     padding: 60px 0 0 0;
     background-color: #000000fa;
