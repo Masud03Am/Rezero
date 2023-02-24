@@ -576,8 +576,8 @@ img{
   
   .team .member {
     text-align: center;
-    background: rgb(61,57,56);
-    background: linear-gradient(0deg, rgba(61,57,56,1) 0%, rgba(95,12,22,1) 51%, rgba(18,4,5,1) 98%);
+    background: rgb(10,7,7);
+    background: linear-gradient(0deg, rgba(10,7,7,1) 3%, rgba(33,8,11,1) 18%, rgba(45,9,13,1) 27%, rgba(95,12,22,1) 51%, rgba(75,10,18,1) 66%, rgba(18,4,5,1) 98%);
     position: relative;
     overflow: hidden;
     border-radius: 5px;
