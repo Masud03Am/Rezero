@@ -259,9 +259,9 @@ body {
 
 @media (min-width: 768px) {  .contact-info h3,h4{ font-weight: 600; font-size: 3vh;} .contact-info { margin-top: -65px;} .contact-info i { font-weight: 600; font-size: 4vh;} .logo-page { margin-top: 0px;} }
 
-@media (min-width: 992px) { .contact-info h3,h4{ font-weight: 600; font-size: 3.5vh;} .contact-info { margin-top: -70px;} .contact-info i { font-weight: 600; font-size: 5vh;} .logo-page { margin-top: 0px;} }
+@media (min-width: 992px) { .contact-info h3,h4{ font-weight: 600; font-size: 3vh;} .contact-info { margin-top: -70px;} .contact-info i { font-weight: 600; font-size: 4vh;} .logo-page { margin-top: 0px;} }
 
-@media (min-width: 1200px) {  .contact-info h3,h4{ font-weight: 600; font-size: 5.5vh;} .contact-info { margin-top: -90px;} .contact-info i { font-weight: 600; font-size: 7vh;} .logo-page { margin-top: 0px;} }
+@media (min-width: 1200px) {  .contact-info h3,h4{ font-weight: 600; font-size: 4vh;} .contact-info { margin-top: -90px;} .contact-info i { font-weight: 600; font-size: 5vh;} .logo-page { margin-top: 0px;} }
 
 
         /*--------------------------------------------------------------
