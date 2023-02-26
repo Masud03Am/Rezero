@@ -8,6 +8,7 @@ $('.responsive').slick({
       autoplaySpeed: 3500,
       swipe: true,
       touchThreshold: 5,
+      waitForAnimate: false,
       responsive: [
         {
           breakpoint: 1024,
