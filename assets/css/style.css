@@ -412,6 +412,18 @@ body {
   font-size: 18px;
 }
 
+@media (min-width: 330px) { .text-sponsor h2{font-size: 18px;} .text-sponsor h3{font-size: 9px; line-height: 20px;} }
+
+@media (min-width: 440px) { .text-sponsor h2{font-size: 23px;} .text-sponsor h3{font-size: 11px;} }
+
+@media (min-width: 576px) { .text-sponsor h2{font-size: 26px;} .text-sponsor h3{font-size: 13px;} }
+
+@media (min-width: 768px) { .text-sponsor h2{font-size: 30px;} .text-sponsor h3{font-size: 12px;} }
+
+@media (min-width: 992px) { .text-sponsor h2{font-size: 35px;} .text-sponsor h3{font-size: 14px;line-height: 25px;} }
+
+@media (min-width: 1250px) { .text-sponsor h2{font-size: 40px;} .text-sponsor h3{font-size: 18px;line-height: 25px;} }
+
 
   /*--------------------------------------------------------------
 # managesport-section
@@ -438,20 +450,28 @@ body {
 }
 
 .text-managesport h2{
-  font-size: 32px; 
-  font-weight: 800; 
-  text-transform: uppercase; 
+  font-weight: 900;
+  text-transform: uppercase;
   color: #000000fa;
 }
 
 .text-managesport h3{
-  color: #000000fa; 
+  color: #444444;
   line-height: 4vh; 
   font-weight: 500;
-  font-size: 18px;
 }
 
+@media (min-width: 330px) { .text-managesport h2{font-size: 18px;} .text-managesport h3{font-size: 9px; line-height: 20px;} }
 
+@media (min-width: 440px) { .text-managesport h2{font-size: 23px;} .text-managesport h3{font-size: 11px;} }
+
+@media (min-width: 576px) { .text-managesport h2{font-size: 26px;} .text-managesport h3{font-size: 13px;} }
+
+@media (min-width: 768px) { .text-managesport h2{font-size: 30px;} .text-managesport h3{font-size: 12px;} }
+
+@media (min-width: 992px) { .text-managesport h2{font-size: 35px;} .text-managesport h3{font-size: 14px;line-height: 25px;} }
+
+@media (min-width: 1250px) { .text-managesport h2{font-size: 40px;} .text-managesport h3{font-size: 17px;line-height: 25px;} }
 
   /*--------------------------------------------------------------
 # Brending-section
@@ -504,6 +524,19 @@ font-size: 18px;
 }
 
 
+@media (min-width: 330px) { .text-brending h2{font-size: 14px;} .text-brending ul>li{font-size: 10px;line-height: 20px;} }
+
+@media (min-width: 440px) { .text-brending h2{font-size: 18px;} .text-brending ul>li{font-size: 12px;} }
+
+@media (min-width: 576px) { .text-brending h2{font-size: 20px;} .text-brending ul>li{font-size: 15px;} }
+
+@media (min-width: 768px) { .text-brending h2{font-size: 23px;} .text-brending ul>li{font-size: 15px;} }
+
+@media (min-width: 992px) { .text-brending h2{font-size: 27px;} .text-brending ul>li{font-size: 15px;} }
+
+@media (min-width: 1250px) { .text-brending h2{font-size: 31px;} .text-brending ul>li{font-size: 15px;} }
+
+
     /*--------------------------------------------------------------
 # Portfolio-section
 --------------------------------------------------------------*/
@@ -514,7 +547,7 @@ font-size: 18px;
   font-size: 45px;
   font-weight: 800;
   text-transform: uppercase;
-  color: #444444;
+  color: #000000fa;
 }
 
 .column{
@@ -532,20 +565,36 @@ font-size: 18px;
 }
 
 .text-lower{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #000000fa;
+  color: #444444;
   margin: 30px 10px;
   text-align: center;
   line-height: 30px;
 }
+
+@media (min-width: 330px) { .text-upper{font-size: 25px;} .text-lower{font-size: 10px;line-height: 20px;margin: 0 0 20px 0;} }
+
+@media (min-width: 440px) { .text-upper{font-size: 35px;} .text-lower{font-size: 13px;line-height: 30px;margin: 0 0 20px 0;} }
+
+@media (min-width: 576px) { .text-upper{font-size: 40px;} .text-lower{font-size: 13px;} }
+
+@media (min-width: 768px) { .text-upper{font-size: 45px;} .text-lower{font-size: 15px;} }
+
+@media (min-width: 992px) { .text-upper{font-size: 45px;} .text-lower{font-size: 15px;} }
+
+@media (min-width: 1250px) { .text-upper{font-size: 45px;} .text-lower{font-size: 15px;} }
 
 
 
   /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+.modal-content{
+  pointer-events: none;
+}
 
 .slick-prev:before, .slick-next:before {
   font-family: 'slick';
@@ -668,11 +717,11 @@ img{
     justify-content: space-evenly;
 }
 
-.modal-dialog{
+/*.modal-dialog{
   margin-top: 30vh;
-}
+}*/
 
-
+@media (max-width: 576px) { .modal-img {display: none;} }
 
 
 
@@ -705,13 +754,13 @@ img{
 }
 
 @media (max-width: 768px) {
-  .clients img {
+  .partner img {
     width: 40%;
   }
 }
 
 @media (max-width: 575px) {
-  .clients img {
+  .partner img {
     width: 50%;
   }
 }
