@@ -422,7 +422,7 @@ body {
 
 @media (min-width: 991px) { .text-sponsor h2{font-size: 35px;} .text-sponsor h3{font-size: 14px;line-height: 25px;} }
 
-@media (min-width: 1250px) { .text-sponsor h2{font-size: 40px;} .text-sponsor h3{font-size: 17px;line-height: 25px;} }
+@media (min-width: 1200px) { .text-sponsor h2{font-size: 40px;} .text-sponsor h3{font-size: 17px;line-height: 25px;} }
 
 @media (max-width: 767px) { .sponsor{background: url(../img/main2_mobile.jpg) right bottom no-repeat;top: auto;bottom: 0;left: 0;width: 100%;height: 485px;background-size: 767px;} }
 
@@ -474,7 +474,7 @@ body {
 
 @media (min-width: 991px) { .text-managesport h2{font-size: 35px;} .text-managesport h3{font-size: 14px;line-height: 25px;} }
 
-@media (min-width: 1250px) { .text-managesport h2{font-size: 40px;} .text-managesport h3{font-size: 17px;line-height: 25px;} }
+@media (min-width: 1200px) { .text-managesport h2{font-size: 40px;} .text-managesport h3{font-size: 17px;line-height: 25px;} }
 
 @media (max-width: 767px) { .managesport{background: url(../img/main3_mobile.jpg) right bottom no-repeat;top: auto;bottom: 0;left: 0;width: 100%;height: 485px;background-size: 420px;position: relative;} }
 
@@ -531,17 +531,17 @@ font-size: 18px;
 }
 
 
-@media (min-width: 330px) { .text-brending h2{font-size: 24px;} .text-brending h3{font-size: 13px;line-height: 20px;} }
+@media (min-width: 330px) { .text-brending h2{font-size: 30px;} .text-brending h3{font-size: 13px; line-height: 20px;} }
 
-@media (min-width: 440px) { .text-brending h2{font-size: 26px;} .text-brending h3{font-size: 15px;} }
+@media (min-width: 440px) { .text-brending h2{font-size: 32px;} .text-brending h3{font-size: 15px;} }
 
-@media (min-width: 576px) { .text-brending h2{font-size: 29px;} .text-brending h3{font-size: 18px;} }
+@media (min-width: 576px) { .text-brending h2{font-size: 37px;} .text-brending h3{font-size: 17px;} }
 
-@media (min-width: 767px) { .text-brending h2{font-size: 27px;} .text-brending h3{font-size: 16px;} }
+@media (min-width: 767px) { .text-brending h2{font-size: 40px;} .text-brending h3{font-size: 14px;} }
 
-@media (min-width: 991px) { .text-brending h2{font-size: 27px;} .text-brending h3{font-size: 15px;} }
+@media (min-width: 991px) { .text-brending h2{font-size: 35px;} .text-brending h3{font-size: 14px;line-height: 25px;} }
 
-@media (min-width: 1250px) { .text-brending h2{font-size: 31px;} .text-brending h3{font-size: 15px;} }
+@media (min-width: 1200px) { .text-brending h2{font-size: 40px;} .text-brending h3{font-size: 17px;line-height: 25px;} }
 
 @media (max-width: 767px) { .brending{background: url(../img/main4_mobile.jpg) right bottom no-repeat;top: auto;bottom: 0;left: 0;width: 100%;height: 485px;background-size: 767px;} }
 
@@ -593,7 +593,7 @@ font-size: 18px;
 
 @media (min-width: 991px) { .text-upper{font-size: 45px;} .text-lower{font-size: 15px;} }
 
-@media (min-width: 1250px) { .text-upper{font-size: 45px;} .text-lower{font-size: 15px;} }
+@media (min-width: 1200px) { .text-upper{font-size: 45px;} .text-lower{font-size: 15px;} }
 
 
 
