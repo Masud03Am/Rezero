@@ -531,17 +531,17 @@ font-size: 18px;
 }
 
 
-@media (min-width: 330px) { .text-brending h2{font-size: 24px;} .text-brending ul>li{font-size: 13px;line-height: 20px;} }
+@media (min-width: 330px) { .text-brending h2{font-size: 24px;} .text-brending h3{font-size: 13px;line-height: 20px;} }
 
-@media (min-width: 440px) { .text-brending h2{font-size: 26px;} .text-brending ul>li{font-size: 15px;} }
+@media (min-width: 440px) { .text-brending h2{font-size: 26px;} .text-brending h3{font-size: 15px;} }
 
-@media (min-width: 576px) { .text-brending h2{font-size: 29px;} .text-brending ul>li{font-size: 18px;} }
+@media (min-width: 576px) { .text-brending h2{font-size: 29px;} .text-brending h3{font-size: 18px;} }
 
-@media (min-width: 767px) { .text-brending h2{font-size: 27px;} .text-brending ul>li{font-size: 16px;} }
+@media (min-width: 767px) { .text-brending h2{font-size: 27px;} .text-brending h3{font-size: 16px;} }
 
-@media (min-width: 991px) { .text-brending h2{font-size: 27px;} .text-brending ul>li{font-size: 15px;} }
+@media (min-width: 991px) { .text-brending h2{font-size: 27px;} .text-brending h3{font-size: 15px;} }
 
-@media (min-width: 1250px) { .text-brending h2{font-size: 31px;} .text-brending ul>li{font-size: 15px;} }
+@media (min-width: 1250px) { .text-brending h2{font-size: 31px;} .text-brending h3{font-size: 15px;} }
 
 @media (max-width: 767px) { .brending{background: url(../img/main4_mobile.jpg) right bottom no-repeat;top: auto;bottom: 0;left: 0;width: 100%;height: 485px;background-size: 767px;} }
 
