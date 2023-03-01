@@ -2,11 +2,6 @@
   "use strict";
 
   /**
-   * Preloader
-   */
-
-
-  /**
    * Easy selector helper function
    */
 
