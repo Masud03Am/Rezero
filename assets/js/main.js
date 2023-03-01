@@ -2,8 +2,21 @@
   "use strict";
 
   /**
+   * Preloader
+   */
+
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 1000);
+  }
+
+  /**
    * Easy selector helper function
    */
+
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
