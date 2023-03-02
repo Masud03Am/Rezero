@@ -148,9 +148,48 @@
   document.addEventListener("click",function (e){
     if(e.target.classList.contains("img-team")){
         const src = e.target.getAttribute("src");
-        document.querySelector(".modal-img").src = src;
-        const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
-        myModal.show();
+        const val = document.querySelector(".modal-img");
+        val.src = src;
+        if(src == "assets/img/team/team-1.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-1'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-2.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-2'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-3.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-3'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-4.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-4'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-1.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-5'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-2.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-6'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-3.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-7'));
+          myModal.show();
+        }
+        else if(src == "assets/img/team/team-4.jpg")
+        {
+          const myModal = new bootstrap.Modal(document.getElementById('gallery-modal-8'));
+          myModal.show();
+        }
     }
   })
 
