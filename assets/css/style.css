@@ -727,7 +727,7 @@ img{
 @media (min-width: 1200px) { .slick-prev, .slick-next { display: block !important;} }
 
 .team {
-    padding: 60px 0 0 0;
+    padding: 60px 0 60px 0;
     background-color: #000000fa;
   }
 
