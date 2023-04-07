@@ -255,13 +255,13 @@ body {
 
 @media (min-width: 440px) { .contact-info h3,h4{ font-weight: 600; font-size: 2vh;} .contact-info { margin-top: -70px;} .contact-info i { font-weight: 600; font-size: 2.5vh;} .logo-page { margin-top: 35px;} }
 
-@media (min-width: 576px) { .contact-info h3,h4{ font-weight: 600; font-size: 2vh;} .contact-info { margin-top: -50px;} .contact-info i { font-weight: 600; font-size: 2.5vh;} .logo-page { margin-top: 60px;} }
+@media (min-width: 576px) { .contact-info h3,h4{ font-weight: 600; font-size: 2.1vh;} .contact-info { margin-top: -50px;} .contact-info i { font-weight: 600; font-size: 2.5vh;} .logo-page { margin-top: 60px;} }
 
-@media (min-width: 768px) {  .contact-info h3,h4{ font-weight: 600; font-size: 3vh;} .contact-info { margin-top: -65px;} .contact-info i { font-weight: 600; font-size: 4vh;} .logo-page { margin-top: 0px;} }
+@media (min-width: 768px) {  .contact-info h3,h4{ font-weight: 600; font-size: 2.2vh;} .contact-info { margin-top: -65px;} .contact-info i { font-weight: 600; font-size: 4vh;} .logo-page { margin-top: 0px;} }
 
-@media (min-width: 992px) { .contact-info h3,h4{ font-weight: 600; font-size: 3vh;} .contact-info { margin-top: -70px;} .contact-info i { font-weight: 600; font-size: 4vh;} .logo-page { margin-top: 0px;} }
+@media (min-width: 992px) { .contact-info h3,h4{ font-weight: 600; font-size: 2.5vh;} .contact-info { margin-top: -70px;} .contact-info i { font-weight: 600; font-size: 4vh;} .logo-page { margin-top: 0px;} }
 
-@media (min-width: 1200px) {  .contact-info h3,h4{ font-weight: 600; font-size: 4vh;} .contact-info { margin-top: -90px;} .contact-info i { font-weight: 600; font-size: 5vh;} .logo-page { margin-top: 0px;} }
+@media (min-width: 1200px) {  .contact-info h3,h4{ font-weight: 600; font-size: 3vh;} .contact-info { margin-top: -90px;} .contact-info i { font-weight: 600; font-size: 5vh;} .logo-page { margin-top: 0px;} }
 
 
         /*--------------------------------------------------------------
